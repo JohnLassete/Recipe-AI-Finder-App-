@@ -1,0 +1,42 @@
+/* src/styles/RecipeSearch.css */
+.recipe-search {
+    margin-bottom: 20px;
+}
+
+.recipe-search input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.recipe-search button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #28a745;
+}
+
+.recipe-search ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-search li {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-search li h3 {
+    margin: 0;
+    color: #333;
+}
+
+.recipe-search li button {
+    background-color: #ff6347;
+}
